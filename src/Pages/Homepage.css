@@ -1,0 +1,40 @@
+.imgDiv{
+   display: flex;
+}
+.inputDate{
+    margin-top: 10px;
+}
+.inputDate span{
+    margin: 0 10px;
+}
+/* .featureCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.inputDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.inputDate input{
+    margin: 10px 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:576px){
+    .imgDiv{
+        flex-direction: column;
+    }
+    .inputDate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
